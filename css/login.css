@@ -1,0 +1,42 @@
+.login_bg{
+	background: #f3f3f4;
+	margin: 0;
+	font-family: "open sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 13px;
+}
+.loginscreen.middle-box {
+    width: 300px;
+}
+.middle-box {
+    margin: 0 auto;
+    max-width: 400px;
+    padding-top: 40px;
+    z-index: 100;
+}
+.middle-box h1 {
+    font-size: 120px;
+}
+.logo-name {
+    color: #e6e6e6;
+    font-size: 180px;
+    font-weight: 800;
+    letter-spacing: -10px;
+    margin-bottom: 0;
+}
+.text-muted {
+    color: #888;
+    text-align: center;
+}
+.btn-primary {
+    background-color: #1ab394;
+    border-color: #1ab394;
+}
+.btn {
+    border-radius: 3px;
+}
+.full-width {
+    width: 100% !important;
+}
+.m-b {
+    margin-bottom: 15px;
+}

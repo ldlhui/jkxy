@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<!--
+  	作者：lih
+  	时间：2016-05-17
+  	描述：山寨百度首頁
+-->
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>百度首页</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1" />
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index/index.css"/>
+	</head>
+
+	<body class="bg">
+		<div class="hf"><a id="hf">换肤</a></div>
+		<!--top-->
+		<header class="top">
+			<ul class="menu">
+				<li>
+					<a href="http://www.nuomi.com/?cid=002540" name="tj_trnuomi" class="mnav">糯米</a>
+				</li>
+				<li>
+					<a href="http://news.baidu.com" name="tj_trnews" class="mnav">新闻</a>
+				</li>
+				<li>
+					<a href="http://www.hao123.com" name="tj_trhao123" class="mnav">hao123</a>
+				</li>
+				<li>
+					<a href="http://map.baidu.com" name="tj_trmap" class="mnav">地图</a>
+				</li>
+				<li>
+					<a href="http://v.baidu.com" name="tj_trvideo" class="mnav">视频</a>
+				</li>
+				<li>
+					<a href="http://tieba.baidu.com" name="tj_trtieba" class="mnav">贴吧</a>
+				</li>
+				<li>
+					<a href="http://v.baidu.com" name="tj_trvideo" class="mnav" style="font-weight: normal;">登录</a>
+				</li>
+				<li>
+					<a href="http://tieba.baidu.com" name="tj_trtieba" class="mnav"style="font-weight: normal;">设置</a>
+				</li>
+				<li>
+					<a class="tmore">更多产品</a>
+				</li>
+			</ul>
+			<nav class="weather">
+				<div class="weather-outline">
+					<div class="icon-weather">
+						☀
+					</div>
+					<div class="weather-num">29°</div>
+					<div class="weather-status"><p>沈阳</p><p>空气&nbsp;102</p></div>
+				</div>
+			</nav>
+		</header>
+		<!--end top-->
+		<!--middle-->
+		<article class="middle" >
+			<img class="logo" src="img/bd_logo1.png" width="270" height="129" /></li>
+			<form action="" method="post" style="margin: auto;">
+				<span id="form" class="search" style="vertical-align: middle;">
+					<input id="stext" type="text"/>
+					<a href=""><i class="fa fa-microphone" style="font-size:16px ;"></i></a>|
+					<a href=""><i class="fa fa-camera"style="font-size:16px ;"></i></a>
+				</span><span id="sub"><button type="submit">百度一下</button></span>
+				<!--
+                	这里没有格式化是因为两个Span之间的间隙问题  
+                -->
+			</form>
+			<nav class="tnav" style="width: 100%">
+				<ul class="news mnav" style="margin-bottom: 0;">
+					<li class="cli" id="one">我的关注</li>
+					<li class="cli" id="two">推荐</li>
+					<li class="cli" id="three">导航</li>
+					<li class="cli" id="four">视频</li>
+					<li class="cli" id="five">购物</li>
+				</ul>
+				<div pid="one" class="index">
+					<p>以下信息根据您的兴趣推荐</p>
+					<p>我的关注</p>
+				</div>
+				<div pid="two" class="two content">
+					<p>以下信息根据您的兴趣推荐</p>
+					<p>推荐</p>
+				</div>
+				<div pid="three" class="content">
+					<p>以下信息根据您的兴趣推荐</p>
+					<p>导航</p>
+				</div>
+				<div pid="four"  class="content">
+					<p>以下信息根据您的兴趣推荐</p>
+					<p>视频</p>
+				</div>
+				<div pid="five"  class="content">
+					<p>以下信息根据您的兴趣推荐</p>
+					<p>购物</p>
+				</div>
+			</nav>
+			<nav class="nav_icon">
+				<a href="#">
+					<i class="fa fa-newspaper-o" aria-hidden="true"></i>
+					新闻
+				</a>
+				<a href="#">
+					<i class="fa fa-bookmark" aria-hidden="true"></i>
+					小说
+				</a>
+				<a href="#">
+					<i class="fa fa-video-camera" aria-hidden="true"></i>
+					视频
+				</a>
+				<a href="#">
+					<i style=" font-style:normal;">糯</i>
+					糯米
+				</a>
+				<a href="#">
+					<i class="fa fa-map-marker" aria-hidden="true"></i>
+					地图
+				</a>
+				<a href="#">
+					<i class="fa fa-arrow-circle-o-down" aria-hidden="true"></i>
+					更多
+				</a>
+			</nav>
+			<div class="plus">
+				<div class="plus-title">
+					<h2>我的导航</h2>
+					<a href="#" class="plus-edit">
+						<i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+					</a>
+				</div>
+				<div class="plus-content" id="nav-list">
+					<a><span>资讯</span></a>
+					<a><span>hao123</span></a>
+					<a><span>图片</span></a>
+					<a><span>爱奇艺</span></a>
+					<a><span>美女</span></a>
+					<a><span>音乐</span></a>
+					<a><span>笑话</span></a>
+					<a><span><i class="fa fa-plus" aria-hidden="true"></i></span></a>
+				</div>
+			</div>
+		</article>
+			<!--end middle-->
+		<!--start more-->
+		<div id="more" class="more" style="display: none;">
+			<div class="morebd">
+				<div class="moreTitle">
+					更多产品
+				</div>
+				<div class="moreContainer">
+					<div class="content">
+						<a name="tj_mp3" href="http://music.baidu.com">
+							<span class="bdbriimgitem_3"></span>音乐
+						</a>
+						<a name="tj_img" href="http://image.baidu.com">
+							<span class="bdbriimgitem_4"></span>图片
+						</a>
+						<a name="tj_zhidao" href="http://zhidao.baidu.com">
+							<span class="bdbriimgitem_2"></span>知道
+						</a>
+						<a name="tj_wenku" href="http://wenku.baidu.com">
+							<span class="bdbriimgitem_5"></span>文库
+						</a>
+						<a name="tj_bang" href="http://top.baidu.com">
+							<span class="bdbriimgitem_6"></span>风云榜
+						</a>
+						<a name="tj_tuiguang" href="http://e.baidu.com/?refer=888">
+							<span class="bdbriimgitem_7"></span>百度推广
+						</a>
+						<div class="bdbrievenmore">
+							<a name="tj_more" href="//www.baidu.com/more/">全部产品&gt;&gt;</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--end more-->
+		<!--footer-->
+		<footer id="footer" class="footer">
+			<div class="info">
+				<p>
+					<a href="#">把百度设为主页</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">把百度设为主页</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a  href="#">About&nbsp;&nbsp;Baidu</a>
+				</p>
+				<p>
+					©2016&nbsp;Baidu&nbsp;
+					<a href="http://www.baidu.com/duty/">
+						使用百度前必读</a>&nbsp;
+					<a href="http://jianyi.baidu.com/">意见反馈</a> &nbsp;京ICP证030173号&nbsp;
+				</p>
+				<p>
+					京公网安备11000002000001号&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				</p>
+			</div>
+		</footer>
+		<!--end footer-->
+		<script type="text/javascript" src="js/jquery.js" ></script>
+		<script  type="text/javascript" src="js/index.js" charset="utf-8"></script>
+		<script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/affix.js"></script>
+	    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/alert.js"></script>
+	    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/dropdown.js"></script>
+	    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/tooltip.js"></script>
+	    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/modal.js"></script>
+	    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/transition.js"></script>
+	    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/button.js"></script>
+	    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/popover.js"></script>
+	    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/carousel.js"></script>
+	    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/scrollspy.js"></script>
+	    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/collapse.js"></script>
+	    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/tab.js"></script>
+	</body>
+</html>
